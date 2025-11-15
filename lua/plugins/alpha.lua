@@ -9,8 +9,8 @@ return {
 		local dashboard = require("alpha.themes.dashboard")
 
 		dashboard.section.header.val = {
-			[[                                                                       ]],
-			[[                                                                       ]],
+			-- [[                                                                       ]],
+			-- [[                                                                       ]],
 			[[                                                                       ]],
 			[[                                                                       ]],
 			[[                                                                     ]],
@@ -24,6 +24,11 @@ return {
 			[[                                                                       ]],
 			[[                                                                       ]],
 			-- [[                                                                       ]],
+		}
+
+
+		dashboard.section.footer.val = {
+			"🎉  Neovim loaded successfully!",
 		}
 
 		alpha.setup(dashboard.opts)
